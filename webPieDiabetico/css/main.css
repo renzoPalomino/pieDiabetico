@@ -1,0 +1,19 @@
+.tarjeta{
+    height: 304px;
+    width: 566px;
+    border-radius: 35px;
+    background: #C4E69F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.text-negrita{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #5F9427;
+}
