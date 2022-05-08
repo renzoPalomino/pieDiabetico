@@ -6,16 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="css/main.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <?php include 'componentes/referencias.php' ?>
     <title>Evaluacion</title>
   </head>
   <body>
 <!--NAVBAR-->
-<iframe class="inavbar" src="componentes/navbar.html" frameborder="0"></iframe>
+<?php include 'componentes/navbar.php' ?>
 <!--ENDNAVBAR-->
 
   <!--MENSAJE 1-->
@@ -33,6 +29,6 @@
   </div>
   
   <!--Footer-->
-  <iframe class="ifooter" src="componentes/footer.html" frameborder="0"></iframe>
+  <?php include 'componentes/footer.php' ?>
   </body>
 </html>
