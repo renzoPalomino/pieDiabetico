@@ -11,10 +11,8 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Evaluacion</title>
-  </head>
-  <body>
-<!--NAVBAR-->
+</head>
+<body>
 <nav class="navbar navbar-expand-md bg-dark navbar-dark px-5">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -40,24 +38,5 @@
       </ul>
     </div>  
   </nav>
-  <!--ENDNAVBAR-->
-
-  <!--MENSAJE 1-->
-  <div class="container mt-5">
-  <div class="tarjeta border">
-    <div class="p-5">El 
-        <span class="text-negrita">éxito</span> en el 
-        <span class="text-negrita">tratamiento</span>  del pie diabético depende de realizar un buen 
-        <span class="text-negrita">diagnóstico</span> </div>
-  </div>
-  </div>
-    <!-- Optional JavaScript; choose one of the two! -->
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    
-    -->
-  </body>
+</body>
 </html>
