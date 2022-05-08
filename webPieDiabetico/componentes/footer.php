@@ -1,4 +1,4 @@
-    <Footer class="navbar bg-dark navbar-dark">
+    <Footer class="navbar bg-dark navbar-dark mt-5">
         <div class="container-fluid row" >
         <div class="col-6">
             <span style="color: #f8f8f8; font-size: 50px;">LOGO</span>
