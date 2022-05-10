@@ -15,7 +15,7 @@
 <!--ENDNAVBAR-->
 
   <!--MENSAJE 1-->
-  <div class="container mt-5">
+  <div class="mensaje1 container my-5">
   <div class="row">
   
   <div class="tarjeta border col-md-5">
@@ -30,5 +30,9 @@
   
   <!--Footer-->
   <?php include 'componentes/footer.php' ?>
+
+  <script>
+    ScrollReveal().reveal('.mensaje1', { delay: 500 });
+	</script>
   </body>
 </html>

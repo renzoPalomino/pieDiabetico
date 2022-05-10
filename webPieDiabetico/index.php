@@ -16,7 +16,7 @@
 <div class="fullscreen"></div>
 
 <!--mensaje-->
-<div class="navbar fullscreen">
+<div class="mensaje navbar fullscreen">
 <div class="container mt-5">
   <div class="row">
   <div class="col-md-2"></div>
@@ -33,7 +33,7 @@
 
 <!--info-->
 <div class="navbar fullscreen bg-gray">
-  <div class="container mt-5">
+  <div class="info container mt-5">
   <div class="row">
   <div class="col-md-8">
     <div class="row">
@@ -57,7 +57,7 @@
 
 <!--mensaje1-->
 <div class="navbar bg-verdeoscuro">
-<div class="container mt-5">
+<div class="mensaje1 container mt-5">
   <div class="row">
   
     <div class="tarjeta border col-md-7">
@@ -71,7 +71,7 @@
   </div>
 
   <!--mensaje2-->
-<div class="container my-5">
+<div class="mensaje2 container my-5">
   <div class="row">
     <div class="col-md-5"></div>
     <div class="tarjeta border col-md-7">
@@ -88,6 +88,13 @@
 <?php include 'componentes/iconWhatsapp.php' ?>
   
   <!--Footer-->
-  <?php include 'componentes/footer.php' ?>    
+  <?php include 'componentes/footer.php' ?>   
+
+  <script>
+    ScrollReveal().reveal('.info', { delay: 500 });
+		ScrollReveal().reveal('.mensaje', { delay: 800 });
+    ScrollReveal().reveal('.mensaje1', { delay: 500 });
+    ScrollReveal().reveal('.mensaje2', { delay: 500 });
+	</script>
 </body>
 </html>
