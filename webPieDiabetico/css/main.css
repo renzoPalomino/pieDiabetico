@@ -6,6 +6,28 @@
     background: #5F9427;
 }
 
+.bg-frame4{
+    background: #F4FFE8;
+}
+
+.card{
+    border: 1px solid #5F9427 !important;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+}
+
+.card, .card-header{
+    border-radius: 1.50rem !important;
+}
+
+.card-header{
+    border-bottom: 0px !important;
+    background-color: #fff;
+}
+
+.img-radius{
+    border-radius: 1.50rem !important;
+}
+
 .tarjeta{
     height: 304px;
     /*width: 566px;*/
