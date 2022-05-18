@@ -27,7 +27,8 @@
   <div class="col-md-7"></div>
   </div>
   </div>
-  
+  <!--iconWhatsapp-->
+<?php include 'componentes/iconWhatsapp.php' ?>
   <!--Footer-->
   <?php include 'componentes/footer.php' ?>
 
