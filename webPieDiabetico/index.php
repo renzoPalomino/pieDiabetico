@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
     <?php include 'componentes/referencias.php' ?>
-    <title>Document</title>
+    <title>Inicio</title>
 </head>
 <body>
+
+<div class="ParallaxVideo">
+  <video autoplay muted loop>
+  <source src="/video/VIDEO-1.mp4" type="video/mp4">
+  </video>
+</div>
+
 <!--NAVBAR-->
 <?php include 'componentes/navbar.php' ?>
 <!--ENDNAVBAR-->
@@ -50,7 +57,9 @@
       </div>
     </div>
   </div>
-  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <img src="/img/logo_PD2.png" style="width: 100%;">
+  </div>
   </div>
   </div>
 </div>
