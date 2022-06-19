@@ -14,7 +14,7 @@
 <?php include 'componentes/navbar.php' ?>
 <!--ENDNAVBAR-->
 
-<div class="navbar justify-content-center text-negrita-2 py-5">Casos tratados</div>
+<div class="navbar justify-content-center text-negrita-2 py-5 mt-5">Casos tratados</div>
 
 
   <div class="container mt-3">
@@ -41,14 +41,20 @@
   </div>
 
   <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
+  <div class="carousel-inner ">
     <div class="carousel-item active">
       <img src="/img/casos/dedoN-1.png" class="img-radius d-block img-size1">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item imgSensible divRemove">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/dedoN-2.png" class="img-radius d-block img-size1">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item ">
       <img src="/img/casos/dedoN-3.png"  class="img-radius d-block img-size1">
     </div>
   </div>
@@ -161,13 +167,31 @@
 
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item imgSensible divRemove active">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/malPerf-1.png"  class="img-radius d-block img-size1">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item imgSensible divRemove">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/malPerf-2.png" class="img-radius d-block img-size1">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item imgSensible divRemove">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/malPerf-3.png" class="img-radius d-block img-size1">
     </div>
     <div class="carousel-item">
@@ -222,13 +246,31 @@
 
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item imgSensible divRemove active">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/heridaInfec-1.png"  class="img-radius d-block img-size1">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item imgSensible divRemove">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/heridaInfec-2.png" class="img-radius d-block img-size1">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item imgSensible divRemove">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/heridaInfec-3.png" class="img-radius d-block img-size1">
     </div>
     <div class="carousel-item">
@@ -284,16 +326,40 @@
 
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item imgSensible divRemove active">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/abscesoP-1.png"  class="img-radius d-block img-size1">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item imgSensible divRemove">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/abscesoP-2.png" class="img-radius d-block img-size1">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item imgSensible divRemove">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/abscesoP-3.png" class="img-radius d-block img-size1">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item imgSensible divRemove">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/abscesoP-4.png" class="img-radius d-block img-size1">
     </div>
     <div class="carousel-item">
@@ -348,10 +414,22 @@
 
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item imgSensible divRemove active">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/plantarProf-1.png"  class="img-radius d-block img-size1">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item imgSensible divRemove">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/plantarProf-2.png" class="img-radius d-block img-size1">
     </div>
     <div class="carousel-item">
@@ -409,7 +487,13 @@
 
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item imgSensible divRemove active">
+    <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/dorsalInfec-1.png"  class="img-radius d-block img-size1">
     </div>
     <div class="carousel-item">
@@ -471,13 +555,31 @@
 
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item imgSensible divRemove active">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/lateralInfec-1.png"  class="img-radius d-block img-size1">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item imgSensible divRemove">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/lateralInfec-2.png" class="img-radius d-block img-size1">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item imgSensible divRemove">
+      <section class="text-light  text-center secRemove">
+        <span class="iconify mt-5" data-icon="ant-design:eye-invisible-filled" style="color: #f8f8f8; font-size: 50px;"></span>
+        <div class="px-5 py-3"><strong>CONTENIDO SENSIBLE</strong></div>
+        <div class="px-5 mx-3 pb-5">Esta pagina contiene imagenes que pueden resultar ofensivas para algunas personas</div>
+        <div><button class="btn btn-outline-light" onclick="verImg()">Mostrar imagenes</button></div>
+      </section>
       <img src="/img/casos/lateralInfec-3.png" class="img-radius d-block img-size1">
     </div>
     <div class="carousel-item">

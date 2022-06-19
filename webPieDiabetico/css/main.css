@@ -1,3 +1,13 @@
+body::-webkit-scrollbar{
+    width: 7px;
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #5F9427;
+    border-radius: 10px;
+}
+
 .bg-gray{
     background: #EFEFEF;
 }
@@ -10,6 +20,10 @@
     background: #F4FFE8;
 }
 
+.bg-navbar{
+    background: rgba(255, 255, 255, 0.70);
+    font-weight: bold;
+}
 .card, .card-2{
     border: 1px solid #5F9427 !important;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
@@ -143,13 +157,49 @@
     background-color: rgba(255, 255, 255, 0) !important;
 }
 
+.mapa{
+    width: 400px;
+    height: 300px;
+}
 
+.imgSensible section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);  
+    z-index: 10;
+    border-radius: 1.50rem;
+}
+
+.imgSensible img{
+    position: relative;
+    top: 0;
+    filter: blur(1.5rem);
+}
+.ParallaxVideo{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -999;
+}
 
 .ParallaxVideo video{ 
-    min-width: 100%;
     position: fixed;
-    top:0;
-    z-index: -999;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%,-50%);
+}
+
+.carousel-control-next, .carousel-control-prev{
+    z-index: 20 !important;
 }
 @media only screen and (max-width: 414px){
 	/*movil*/
@@ -159,16 +209,25 @@
     .text-negrita{
         font-size: 25px;
     }
+    .mapa{
+       width: 350px;
+    }
+    
 }
 
 @media only screen and (max-width: 1024px) {
 	/*Para movil y tablet*/
-	
+	.img-size1{
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media only screen and (min-width: 768px){
 	/*Para PC y tablets*/
-	
+	.col-md-6{
+        max-width: none !important;
+    }
 }
 
 @media only screen and (min-width: 1200px){

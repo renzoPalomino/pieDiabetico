@@ -14,7 +14,7 @@
 <?php include 'componentes/navbar.php' ?>
 <!--ENDNAVBAR-->
 
-<div class="navbar justify-content-center text-negrita-3 py-5">Tratamiento</div>
+<div class="navbar justify-content-center text-negrita-3 py-5 mt-5">Tratamiento</div>
 
 <div class="container">
   <div class="card-columns pb-5">

@@ -15,7 +15,7 @@
 <!--ENDNAVBAR-->
 
   <!--MENSAJE 1-->
-    <div class="mensaje1 container my-5">
+    <div class="mensaje1 container my-5 pt-5">
     <div class="row">
     
     <div class="tarjeta border col-md-5">

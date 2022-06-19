@@ -39,9 +39,9 @@
 </div>
 
 <!--info-->
-<div class="navbar fullscreen bg-gray">
-  <div class="info container mt-5">
-  <div class="row">
+<div class="navbar bg-gray">
+  <div class="info container my-5 py-5">
+  <div class="row navbar">
   <div class="col-md-8">
     <div class="row">
       <div class="col-md-12">
@@ -65,8 +65,8 @@
 </div>
 
 <!--mensaje1-->
-<div class="navbar bg-verdeoscuro">
-<div class="mensaje1 container mt-5">
+<div class="navbar bg-verdeoscuro ">
+<div class="mensaje1 container my-5 py-5">
   <div class="row">
   
     <div class="tarjeta border col-md-7">

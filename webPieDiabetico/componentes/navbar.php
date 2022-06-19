@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light  px-5">
+<nav class="navbar navbar-expand-lg navbar-light bg-navbar fixed-top px-5">
     <a class="navbar-brand" href="./index.php">
     <img src="../img/logo_PD2.png" style="width: 50px;">
     </a>
