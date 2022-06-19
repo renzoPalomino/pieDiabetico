@@ -13,7 +13,7 @@
 <!--ENDNAVBAR-->
 
 <!--Nombres-->
-<div class="mx-5">
+<div class="mx-5 mt-5 pt-5">
 <div class="my-5 row">
     <div class="col-md-4">
         <img src="/img/foto1.png" class="border border-success border-5 rounded-circle d-block" style="margin: auto; width:100%; ">
@@ -161,7 +161,11 @@
           <div class="card-body">
             <div class="row">
                 <div class="col-md-8">
-   
+                    <div class="list-group">
+                        <a href="https://fb.watch/d7DKjU96nu/" target="_blank" class="list-group-item list-group-item-action">Más que tu Médico - programa 25</a>
+                        <a href="https://youtu.be/KNqyedp3n0U" target="_blank" class="list-group-item list-group-item-action">Tratamiento de úlceras en Pie diabético con OZONO</a>
+                        <a href="https://fb.watch/dmxPR0SU98/" target="_blank" class="list-group-item list-group-item-action">OZONOTERAPIA - Programa Nº 75</a>
+                    </div>
                 </div>
             </div>
           </div>
