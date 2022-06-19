@@ -1,4 +1,4 @@
-let mensajes=["07 de cada amputación de pierna se realiza en el pie día bético",
+let mensajes=["07 de cada amputación de pierna se realiza en el pie díabético",
 "Uno de cada cuatro pacientes con diabetes desarrolla una úlcera en el pie",
 "El tratamiento del pie diabético es muy complejo, difícil y de una evolución impredecible",
 "El objetivo más importante de luchar en el tratamiento del pie diabético es que el paciente vuelva a caminar sin complicaciones",
