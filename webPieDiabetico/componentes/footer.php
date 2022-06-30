@@ -108,7 +108,7 @@
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
   <img src="../img/logo_PD2.png" class="me-3" style="width: 50px;"> 
     <a class="text-reset fw-bold" href="./inicio.php">Pie diabetico</a>
-    <button onclick="showMsj()" data-bs-toggle="modal" data-bs-target="#myModalM" id="btnOM" style="width:0px; height:0px; visibility: hidden;"></button>
+    
         
         
   </div>
@@ -116,22 +116,3 @@
 </footer>
 <!-- Footer -->
 
-<div class="modal" id="myModalM">
-            <div class="modal-dialog">
-                <div class="modal-content">
-
-                <!-- Modal1 Header -->
-                <div class="modal-header">
-                    <h3 class="modal-title">Información importante</h3>
-                    <button id="btnCM" type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-
-                <!-- Modal1 body -->
-                <div class="modal-body text-center">
-                <span class="iconify my-4" data-icon="carbon:information-filled" style="color: #699bf7; font-size: 150px;"></span>
-                <h5 id="msjM"></h5>
-                </div>
-
-                </div>
-            </div>
-        </div>

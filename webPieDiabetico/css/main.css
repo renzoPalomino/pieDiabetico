@@ -1,3 +1,7 @@
+body{
+    font-family: 'Arial Rounded MT Bold' !important;
+}
+
 body::-webkit-scrollbar{
     width: 7px;
     background: black;
@@ -21,8 +25,9 @@ body::-webkit-scrollbar-thumb{
 }
 
 .bg-navbar{
-    background: rgba(255, 255, 255, 0.70);
+    background: rgba(255, 255, 255, 0.20);
     font-weight: bold;
+    backdrop-filter: blur(50px);
 }
 .card, .card-2{
     border: 1px solid #5F9427 !important;
@@ -236,8 +241,9 @@ body::-webkit-scrollbar-thumb{
 
 @media (min-width: 576px){
 .modal-dialog{
-    max-width: 70vw !important;
-    margin: 1.5rem auto !important;
+    max-width: 100vw !important;
+    margin: 0 !important;
 }
+.modal{top: 80.7px !important;}
 }
 

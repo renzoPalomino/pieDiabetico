@@ -35,4 +35,4 @@ function verImg(){
 }
 
 // Simulate a click every second
-setInterval(clickOpenMensaje, 120000);
+setInterval(clickOpenMensaje, 1000);

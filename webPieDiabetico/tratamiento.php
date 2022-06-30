@@ -17,45 +17,61 @@
 <div class="navbar justify-content-center text-negrita-3 py-5 mt-5">Tratamiento</div>
 
 <div class="container">
-  <div class="card-columns pb-5">
-    <div class="card-2 py-4 " type="button" data-bs-toggle="modal" data-bs-target="#myModal">
-      <div class="card-body text-center">
-        <p class="card-text">Ozonoterapia en bolsa</p>
+  <div class="row pb-5">
+    <div class="col-md-4">
+
+      <div class="card-2 py-4 mb-4" type="button" data-bs-toggle="modal" data-bs-target="#myModal">
+        <div class="card-body text-center">
+          <p class="card-text">Ozonoterapia en bolsa</p>
+        </div>
+      </div>
+
+      <div class="card-2 py-4 mb-4" type="button" data-bs-toggle="modal" data-bs-target="#myModa4">
+        <div class="card-body text-center">
+          <p class="card-text">Podología especializada</p>
+        </div>
       </div>
     </div>
-    <div class="card-2 py-4 " type="button" data-bs-toggle="modal" data-bs-target="#myModa4">
-      <div class="card-body text-center">
-        <p class="card-text">Podología especializada</p>
+
+    <div class="col-md-4">
+      <div class="card-2 py-4 mb-4" type="button" data-bs-toggle="modal" data-bs-target="#myModa2">
+        <div class="card-body text-center">
+          <p class="card-text">Aceite ozonizado</p>
+        </div>
+      </div> 
+
+      <div class="card-2 py-4 mb-4" type="button" data-bs-toggle="modal" data-bs-target="#myModa5">
+        <div class="card-body text-center">
+          <p class="card-text">Ortopedia</p>
+        </div>
+      </div>
+
+      <div class="card-2 py-4 mb-4" type="button" data-bs-toggle="modal" data-bs-target="#myModa7">
+        <div class="card-body text-center">
+          <p class="card-text">Crema hidratante para pie diabético</p>
+        </div>
       </div>
     </div>
-    <div class="card border border-0">
-      
-    </div>
-    <div class="card-2 py-4 " type="button" data-bs-toggle="modal" data-bs-target="#myModa2">
-      <div class="card-body text-center">
-        <p class="card-text">Aceite ozonizado</p>
+
+    <div class="col-md-4">
+      <div class="card-2 py-4 mb-4" type="button" data-bs-toggle="modal" data-bs-target="#myModa3">
+        <div class="card-body text-center">
+          <p class="card-text">Sistema cierre asistido al vacio</p>
+        </div>
       </div>
-    </div>  
-    <div class="card-2 py-4 " type="button" data-bs-toggle="modal" data-bs-target="#myModa5">
-      <div class="card-body text-center">
-        <p class="card-text">Ortopedia</p>
-      </div>
-    </div>
-    <div class="card-2 py-4 " type="button" data-bs-toggle="modal" data-bs-target="#myModa7">
-      <div class="card-body text-center">
-        <p class="card-text">Crema hidratante para pie diabético</p>
+
+      <div class="card-2 py-4 mb-4" type="button" data-bs-toggle="modal" data-bs-target="#myModa6">
+        <div class="card-body text-center">
+          <p class="card-text">Plasma rico en plaquetas</p>
+        </div>
       </div>
     </div>
-    <div class="card-2 py-4 " type="button" data-bs-toggle="modal" data-bs-target="#myModa3">
-      <div class="card-body text-center">
-        <p class="card-text">Sistema cierre asistido al vacio (VAC)</p>
-      </div>
-    </div>
-    <div class="card-2 py-4 " type="button" data-bs-toggle="modal" data-bs-target="#myModa6">
-      <div class="card-body text-center">
-        <p class="card-text">Plasma rico en plaquetas</p>
-      </div>
-    </div>
+    
+
+    
+
+    
+
   </div>
 </div>
 
@@ -72,7 +88,7 @@
 
       <!-- Modal1 body -->
       <div class="modal-body">
-        <img src="/img/Tratamiento/ozonoterapia.png" style="width: 65vw;">
+        <img src="/img/Tratamiento/ozonoterapia.png" style="height: 72vh;">
       </div>
 
     </div>
@@ -92,7 +108,7 @@
 
       <!-- Modal1 body -->
       <div class="modal-body">
-        <img src="/img/Tratamiento/aceiite.png" style="width: 65vw;">
+        <img src="/img/Tratamiento/aceiite.png" style="height: 72vh;">
       </div>
 
     </div>
@@ -112,7 +128,7 @@
 
       <!-- Modal1 body -->
       <div class="modal-body">
-        <img src="/img/Tratamiento/sistemaVacio.png" style="width: 65vw;">
+        <img src="/img/Tratamiento/sistemaVacio.png" style="height: 70vh;">
       </div>
 
     </div>
@@ -132,7 +148,7 @@
 
       <!-- Modal1 body -->
       <div class="modal-body">
-        <img src="/img/Tratamiento/podologia.png" style="width: 65vw;">
+        <img src="/img/Tratamiento/podologia.png" style="height: 70vh;">
       </div>
 
     </div>
@@ -152,7 +168,7 @@
 
       <!-- Modal1 body -->
       <div class="modal-body">
-        <img src="/img/Tratamiento/ortopedia.png" style="width: 65vw;">
+        <img src="/img/Tratamiento/ortopedia.png" style="height: 66vh;">
       </div>
 
     </div>
@@ -172,7 +188,7 @@
 
       <!-- Modal1 body -->
       <div class="modal-body">
-        <img src="/img/Tratamiento/plasmaPlaquetas.png" style="width: 65vw;">
+        <img src="/img/Tratamiento/plasmaPlaquetas.png" style="height: 70vh;">
       </div>
 
     </div>
@@ -192,7 +208,7 @@
 
       <!-- Modal1 body -->
       <div class="modal-body">
-        <img src="/img/Tratamiento/cremaHidratante.png" style="width: 65vw;">
+        <img src="/img/Tratamiento/cremaHidratante.png" style="height: 70vh;">
       </div>
 
     </div>

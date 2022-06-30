@@ -26,7 +26,7 @@
           Dedo necrófito infectado
           </a>
         </div>
-        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+        <div id="collapseOne" class="collapse " data-bs-parent="#accordion">
           <div class="card-body">
             <div class="row">
                 <div class="col-md-8">
