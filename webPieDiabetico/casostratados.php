@@ -23,7 +23,7 @@
       <div class="card my-4">
         <div class="card-header">
           <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-          Dedo necrófito infectado
+          Dedo necrótico infectado
           </a>
         </div>
         <div id="collapseOne" class="collapse " data-bs-parent="#accordion">

@@ -18,13 +18,13 @@
     <div class="mensaje1 container my-5 pt-5">
     <div class="row">
     
-    <div class="tarjeta border col-md-5">
+    <div class="tarjeta border col-md">
       <div class="p-5">El 
           <span class="text-negrita">éxito</span> en el 
           <span class="text-negrita">tratamiento</span>  del pie diabético depende de realizar un buen 
           <span class="text-negrita">diagnóstico</span> </div>
     </div>
-    <div class="col-md-7"></div>
+    <!--div class="col-md-7"></div-->
     </div>
     </div>
 
@@ -32,8 +32,8 @@
 <div class=" bg-frame4">
   <div class="row container mx-auto py-5">
 <!--menuVertical-->
-<div class="col-md-4 my-auto border-end border-5">
-  <ul class="nav nav-pills flex-column" role="tablist">
+<div class="col-md-12 my-auto">
+  <ul class="nav nav-pills justify-content-around" role="tablist">
     <li class="nav-item">
       <a class="nav-link active" data-bs-toggle="pill" href="#menu1">Examen Clínico</a>
     </li>
@@ -50,33 +50,162 @@
   </div>
 
 <!--Contenido-->
-  <div class="col-md-8">
+  <div class="col-md-12">
   <div class="tab-content">
-    <div id="menu1" class="container tab-pane active"><br>
-      <img src="/img/evaluacion/clinico.png" class="img-radius d-block img-size1 border border-success border-5 mb-3">  
-      <h3 class="text-center">Examen Clínico</h3>
-      <p  class="text-center">Pulsos-hidratacion, Presencia de vellos, temperatura, llenado capilar</p>
+<div id="menu1" class="container tab-pane active"><br>
+  <div class="row">
+  <div class="navbar justify-content-center col-md-5">
+                  <div>
+                    <h3>Evaluación Clínica</h3>
+                    <div>Donde se evalúa detalladamente las características del pie:</div>
+                    <div>
+                      <ul>
+                        <li>Temperatura - color - hidratación</li>
+                        <li>Deformidades de los dedos</li>
+                        <li>Zonas con hiperqueratosis (callos)</li>
+                        <li>Descartar hongos -  Uñas</li>
+                        <li>Presencia de lesiones   - Pulsos</li>
+                        <li>Descartar pie de Charcot</li>
+                      </ul>
+                    </div>
+                  </div>
+      </div>
+  <div class="col-md-6">
+          <!-- Carousel -->
+    <div id="demo1" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
     </div>
 
-    <div id="menu2" class="container tab-pane fade"><br>
-      <img src="/img/evaluacion/vascular.png" class="img-radius d-block img-size1 border border-success border-5 mb-3">  
-      <h3 class="text-center">Examen Vascular</h3>
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img src="/img/evaluacion/exCli1.png" class="img-radius d-block img-size1">
+      </div>
+      <div class="carousel-item ">
+        <img src="/img/evaluacion/exCli2.png" class="img-radius d-block img-size1">
+      </div>
     </div>
 
-    <div id="menu3" class="container tab-pane fade"><br>
-      <img src="/img/evaluacion/termografia.png" class="img-radius d-block img-size1 border border-success border-5 mb-3">  
-      <h3 class="text-center">Examen Termografia</h3>
-      <p  class="text-center">Evidencia cientifica de presencia o disminucion de irrigacion de los pies</p>
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+    </div>
+                  </div>
+      
+    </div>
+    </div>
+        
+          
+
+<div id="menu2" class="container tab-pane fade"><br>
+  <div class="row">
+  <div class="navbar justify-content-center col-md-5">
+                  <div>
+                    <h3>Evaluación Vascular</h3>
+                    <div>Se realizan el examen de los pies con el <strong>DOPPLER</strong> arterial, el cual nos ayuda a determinar el grado de irrigación que llega a la parte distal del pie.</div><br>
+                    <div>El Doppler se realiza en arterias de la Ingle, parte posterior de la rodilla (poplítea) y del pie.</div>
+                  </div>
+      </div>
+  <div class="col-md-6">
+          <!-- Carousel -->
+    <div id="demo2" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo2" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo2" data-bs-slide-to="1"></button>
     </div>
 
-    <div id="menu4" class="container tab-pane fade"><br>
-      <img src="/img/evaluacion/neuro.png" class="img-radius d-block img-size1 border border-success border-5 mb-3">  
-      <h3 class="text-center">Examen Neurológico</h3>
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img src="/img/evaluacion/exVas1.png" class="img-radius d-block img-size1">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/evaluacion/exVas2.png" class="img-radius d-block img-size1">
+      </div>
     </div>
 
-  </div>
-  </div>
-  </div>
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+    </div>
+                  </div>
+      
+    </div>
+    </div>
+
+<div id="menu3" class="container tab-pane fade"><br>
+  <div class="row">
+  <div class="navbar justify-content-center col-md-6">
+    <div>
+                    <h3>Evaluación Termográfica</h3>
+                    <div>El examen que permite detectar la luz infrarroja emitida por los pies, donde muestra los cambios relacionados con la temperatura cuando hay variación en la cantidad de sangre que irriga los pies.</div>
+                  </div>
+    </div>
+  <div class="col-md-6">
+          <!-- Carousel -->
+    <div id="demo3" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo3" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo3" data-bs-slide-to="1"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img src="/img/evaluacion/exTer1.png" class="img-radius d-block img-size1">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/evaluacion/exTer1.png" class="img-radius d-block img-size1">
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo3" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo3" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+    </div>
+                  </div>
+      
+    </div>
+    </div>
+
+
+<div id="menu4" class="container tab-pane fade"><br>
+  <div class="row">
+  <div class="navbar justify-content-center col-md-6">
+                  <div>
+                    <h3>Evaluación Neurológico</h3>
+                    <div></div>
+                  </div>
+      </div>
+  <div class="col-md-6">
+      <img src="/img/evaluacion/neuro.png" class="img-radius d-block img-size1">
+    </div>
+
+    </div>
+    </div>
+</div>
+</div>
+</div>
 </div>
  
     <!--iconWhatsapp-->

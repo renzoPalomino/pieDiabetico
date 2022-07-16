@@ -66,7 +66,7 @@
             Contacto
           </h6>
           <p><i class="fas fa-home me-3"></i>Av. Arnaldo Márquez 2264, Jesús María</p>
-          <p><i class="fas fa-phone me-3"></i> 01-4624248</p>
+          <p><i class="fas fa-phone me-3"></i> 01-4624258</p>
           <p><i class="fas fa-phone me-3"></i> 940-959-522</p>
 
           

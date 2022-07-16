@@ -34,5 +34,37 @@ function verImg(){
     }
 }
 
+let contador=1;
+
+function scrollAuto(){
+    const video = document.getElementById("video");
+    const mensaje = document.getElementById("mensaje");
+    const mensaje1 = document.getElementById("mensaje1");
+   
+    if(contador==1){
+        console.log("contador=1");
+        window.scrollTo({
+            top: video.scrollHeight
+        });
+        contador++;
+    }else{
+        if(contador==2){
+            window.scrollTo({
+                top:video.scrollHeight+ mensaje.scrollHeight
+            });
+            contador++;
+        }else{
+            if(contador==3){
+                window.scrollTo({
+                    top: video.scrollHeight+ mensaje.scrollHeight+ mensaje1.scrollHeight
+                });
+                contador++;
+            }
+        }
+    }
+    console.log(contador);
+}
+
 // Simulate a click every second
-setInterval(clickOpenMensaje, 1000);
+//setInterval(clickOpenMensaje, 1000);
+setInterval(scrollAuto, 15000);

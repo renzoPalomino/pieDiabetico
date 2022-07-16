@@ -87,7 +87,7 @@
       </div>
 
       <!-- Modal1 body -->
-      <div class="modal-body">
+      <div class="modal-body text-center">
         <img src="/img/Tratamiento/ozonoterapia.png" style="height: 72vh;">
       </div>
 
@@ -107,7 +107,7 @@
       </div>
 
       <!-- Modal1 body -->
-      <div class="modal-body">
+      <div class="modal-body text-center">
         <img src="/img/Tratamiento/aceiite.png" style="height: 72vh;">
       </div>
 
@@ -127,7 +127,7 @@
       </div>
 
       <!-- Modal1 body -->
-      <div class="modal-body">
+      <div class="modal-body text-center">
         <img src="/img/Tratamiento/sistemaVacio.png" style="height: 70vh;">
       </div>
 
@@ -147,7 +147,7 @@
       </div>
 
       <!-- Modal1 body -->
-      <div class="modal-body">
+      <div class="modal-body text-center">
         <img src="/img/Tratamiento/podologia.png" style="height: 70vh;">
       </div>
 
@@ -167,7 +167,7 @@
       </div>
 
       <!-- Modal1 body -->
-      <div class="modal-body">
+      <div class="modal-body text-center">
         <img src="/img/Tratamiento/ortopedia.png" style="height: 66vh;">
       </div>
 
@@ -187,7 +187,7 @@
       </div>
 
       <!-- Modal1 body -->
-      <div class="modal-body">
+      <div class="modal-body text-center">
         <img src="/img/Tratamiento/plasmaPlaquetas.png" style="height: 70vh;">
       </div>
 
@@ -207,7 +207,7 @@
       </div>
 
       <!-- Modal1 body -->
-      <div class="modal-body">
+      <div class="modal-body text-center">
         <img src="/img/Tratamiento/cremaHidratante.png" style="height: 70vh;">
       </div>
 
