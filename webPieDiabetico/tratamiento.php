@@ -75,7 +75,7 @@
   </div>
 </div>
 
-<!-- The Modal1 -->
+<!-- The Modal1 Ozonoterapia -->
 <div class="modal" id="myModal">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -88,7 +88,7 @@
 
       <!-- Modal1 body -->
       <div class="modal-body text-center">
-        <img src="/img/Tratamiento/ozonoterapia.png" style="height: 72vh;">
+        <img src="/img/Tratamiento/ozonoterapia.jpg" style="height: 72vh;">
       </div>
 
     </div>
@@ -108,7 +108,7 @@
 
       <!-- Modal1 body -->
       <div class="modal-body text-center">
-        <img src="/img/Tratamiento/aceiite.png" style="height: 72vh;">
+        <img src="/img/Tratamiento/aceiite.jpg" style="height: 72vh;">
       </div>
 
     </div>
@@ -128,7 +128,7 @@
 
       <!-- Modal1 body -->
       <div class="modal-body text-center">
-        <img src="/img/Tratamiento/sistemaVacio.png" style="height: 70vh;">
+        <img src="/img/Tratamiento/sistemaVacio.jpg" style="height: 72vh;">
       </div>
 
     </div>
@@ -148,7 +148,7 @@
 
       <!-- Modal1 body -->
       <div class="modal-body text-center">
-        <img src="/img/Tratamiento/podologia.png" style="height: 70vh;">
+        <img src="/img/Tratamiento/podologia.png" style="height: 72vh;">
       </div>
 
     </div>
@@ -168,7 +168,7 @@
 
       <!-- Modal1 body -->
       <div class="modal-body text-center">
-        <img src="/img/Tratamiento/ortopedia.png" style="height: 66vh;">
+        <img src="/img/Tratamiento/ortopedia.jpg" style="height: 72vh;">
       </div>
 
     </div>
@@ -188,7 +188,7 @@
 
       <!-- Modal1 body -->
       <div class="modal-body text-center">
-        <img src="/img/Tratamiento/plasmaPlaquetas.png" style="height: 70vh;">
+        <img src="/img/Tratamiento/plasmaPlaquetas.png" style="height: 72vh;">
       </div>
 
     </div>
@@ -208,7 +208,7 @@
 
       <!-- Modal1 body -->
       <div class="modal-body text-center">
-        <img src="/img/Tratamiento/cremaHidratante.png" style="height: 70vh;">
+        <img src="/img/Tratamiento/cremaHidratante.jpg" style="height: 72vh;">
       </div>
 
     </div>

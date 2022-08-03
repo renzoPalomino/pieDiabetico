@@ -171,7 +171,7 @@
         <img src="/img/evaluacion/exTer1.png" class="img-radius d-block img-size1">
       </div>
       <div class="carousel-item">
-        <img src="/img/evaluacion/exTer1.png" class="img-radius d-block img-size1">
+        <img src="/img/evaluacion/exTer2.png" class="img-radius d-block img-size1">
       </div>
     </div>
 
@@ -194,7 +194,10 @@
   <div class="navbar justify-content-center col-md-6">
                   <div>
                     <h3>Evaluación Neurológico</h3>
-                    <div></div>
+                    <div>Para identificar la disminución o pérdida de la sensibilidad del dolor, vibración o temperatura.
+ La disminución de la sensibilidad del dolor es la causa principal de no poder percibir una herida
+ ocasionada por un traumatismo leve y ser el inicio de una herida que puede evolucionar hasta
+  llegar a una amputación del pie.</div>
                   </div>
       </div>
   <div class="col-md-6">

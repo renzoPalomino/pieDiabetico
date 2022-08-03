@@ -382,7 +382,7 @@
                     <div>Diabetes de 25 años</div>
                     <div>Diagnóstico : Absceso de zona plantar</div>
                     <div>Tratamiento: Limpieza quirúrgica + Antibióticos</div>
-                    <div>Tiempo de cierre : 25 días.</div>
+                    <div>Tiempo de cierre : 25 semanas.</div>
                   </div>
                 </div>
             </div>
